@@ -34,7 +34,12 @@ mydata <- na.omit(mydata)
 
 
 
+```{r}
+barchartGC(~race + eatout,data=mydata)
+barchartGC(~race + eatout,data=mydata, type="percent")
 
+```
+based on frequency table above, which shows the volume of people who eat out and people who do not eat out for each racial group, we can see that about 950 white people eat out while about 200 do not. Meanwhile, about 200 black people eat out while about 100 people do not. For the other racial groups, about 100 people eat out while about 50 do not. Putting this into percentages , 80% of white people eat out while 20% do not. meanwhile black and others have about the same percentages with 70% of people eat out while 30% do not.
 
 
 
